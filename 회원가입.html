@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <meta charset ="UTF-8">
+        <title>회원가입</title>
+    </head>
+    <body>
+        <h1>회원가입</h1>
+        <p>회원 가입 예제입니다.</p>
+        <form action = "dldldl" method = "post">
+            <div>
+                <label for = "userid">아이디</label><br>
+                <input type = "text" id ="userid" name ="id"
+                palceholder = "아이디">
+            </div>
+            <br>
+            <div>
+                <label for = "userpassword">비밀번호</label><br>
+                <input type = "password" id = "userpassword" name = "password"
+                placeholder = "비밀번호">
+            </div>
+            <br>
+            <div>
+                <label for = "userpasswordre">비밀번호 확인</label> <br>
+                <input type = "password" id = "userpasswordre" name = "passwordre"
+                placeholder = "비밀번호 재확인">
+            </div>
+            <br>
+            <div>
+                <label for = "username">이름</label><br>
+                <input type = "text" id = "username" name = "name"
+                placeholder = "이름">
+            </div>
+            <br>
+            <div>
+                <label for = "userbrithday">생년월일</label><br>
+                <input type ="text" id = "userbrithday" name ="year"
+                placeholder = "년(4자)">
+                <input type ="text" id = "userbrithday" name = "month"
+                placeholder = "월">
+                <input type = "text" id = "userbrithday" naem = "day"
+                placeholder = "일">
+            </div>
+            <br>
+            <div>
+                <label for = "gender">성별</label><br>
+                <input type = "text" id = "gender" name = "gender"
+                placeholder = "성별">
+            </div>
+            <br>
+            <div>
+                <label for = "userphone">전화번호</label><br>
+                <select id = "userphone" name = "phone">
+                    <option value = "+82">대한민국 +82</option>
+                    <option value = "+49">독일 +49</option>
+                    <option value = "+81">일본 +81</option>
+                </select>
+                <input type = "text" id = "userphone" name = "phonenumber"
+                placeholde = "전화번호">
+                <button type = "submit">인증번호 받기</button><br>
+                <input type = "text" id = "userphone" name = "ingphone"
+                placeholder = "인증번호 입력하세요">
+            </div>
+            <br>
+            <div>
+                <button type = "submit">가입하기</button>
+            </div>
+        </form>
+    </body>
+</html>
